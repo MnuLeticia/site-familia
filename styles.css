@@ -322,6 +322,11 @@ footer a:hover {
 }
 
 @media (max-width: 450px) {
+
+    .container{
+        width: 90%;
+    }
+
     header h1 {
         font-size: 2em;
     }
@@ -341,12 +346,16 @@ footer a:hover {
     }
 
     .foto p {
-        font-size: 0.9em;
+        font-size: 0.5em;
+    }
+
+    .filhos{
+        gap: 2px;
     }
 
     .filho {
         font-size: 0.8em;
-        padding: 6px 10px;
+        padding: 3px 5px;
     }
     .divisor {
         width: 250px;
@@ -358,5 +367,6 @@ footer a:hover {
         margin: -0.3px;
         font-size: 1em;
     }
+
 }
 
