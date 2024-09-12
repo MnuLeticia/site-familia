@@ -277,6 +277,11 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
+
+    .container {
+        width: 100%;
+    }
+
     header h1 {
         font-size: 2em;
     }
@@ -314,3 +319,43 @@ footer a:hover {
         font-size: 1em;
     }
 }
+
+@media (max-width: 450px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .menu-item {
+        font-size: 0.9em;
+        padding: 7px 12px;
+    }
+
+    .introducao p {
+        font-size: 1em;
+    }
+
+    .foto img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .foto p {
+        font-size: 0.9em;
+    }
+
+    .filho {
+        font-size: 0.8em;
+        padding: 6px 10px;
+    }
+    .divisor {
+        width: 250px;
+        height: 25px;
+    }
+
+    .menu-item {
+        padding: 5px 2px;
+        margin: -0.3px;
+        font-size: 1em;
+    }
+}
+

@@ -53,3 +53,34 @@ body {
     opacity: 0;
     transition: .2s;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .album {
+        width: 100%;
+    }
+
+    .album .foto:hover {
+        scale: 2;
+        transition: .5s;
+    }
+    
+    .album .foto::before {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .container{
+        width: 100%;
+    }
+}
+
