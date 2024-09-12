@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaushan+Script&display=swap');
+
+.doc {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    font-family: "Kaushan Script", serif; 
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px 0;
+    color: #ffff;
+}
+
+.intro .imgem img{
+    border: 2px solid #FFD700;
+    width: 500px;
+    height: auto;
+}
+
+
+.intro .imgem img:hover{
+    width: 50%;
+    height: auto;
+}
+
+.intro .imagem {
+    margin: 30px 0;
+    padding: 20px;
+    border-top: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+}
+
+.intro .cert p {
+    font-size: 1.7em;
+    color: #FFD700;
+    margin-bottom: 5px;
+}
+
+.divi{
+    width: 500px;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .intro .imgem img{
+        width: 400px;
+        height: auto;
+    }
+
+    .intro .cert p {
+        font-size: 1.4em;
+        margin-bottom: 5px;
+    }
+    
+    .intro {
+        font-weight: 300;
+        margin: 20px 0;
+    }
+
+    .intro .imagem {
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .divi {
+        width: 450px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .intro .imgem img{
+        width: 350px;
+        height: auto;
+    }
+
+    .intro .cert p {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+    
+    .intro {
+        font-weight: 200;
+        margin: 10px 0;
+    }
+
+    .intro .imagem {
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+    .divi {
+        width: 400px;
+        height: 40px;
+    }
+
+   
+}
+

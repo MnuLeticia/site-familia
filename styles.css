@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaushan+Script&display=swap');
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #4B153B;
+    color: #D0A933;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+.menu-item {
+    background-color: transparent;
+    border: 1px solid #FFD700;
+    color: #FFD700;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #FFD700;
+    color: #4B153B;
+}
+
+.introducao {
+    font-family: "Kaushan Script", serif; 
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px 0;
+    color: #ffff;
+}
+
+.introducao p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap; /* Para se ajustar melhor em telas pequenas */
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+}
+
+.foto p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.filhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.filho {
+    background-color: transparent;
+    color: #FFD700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #D0A933;
+    text-decoration: none;
+}
+
+.filho:hover {
+    background-color: #D0A933;
+    color: #4B153B;
+    border: 1px solid #D0A933;
+    text-decoration: none;
+}
+
+.album .foto p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #FFD700;
+}
+/* Estilo para o link de volta */
+footer {
+    margin: 10px 20px 30px ;  
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer a:hover {
+    color: #4B153B;
+    background-color: #FFD700;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 20px 0;
+    color: #D0A933;
+    font-family: "Kaushan Script", serif;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-family: "Kaushan Script", serif;
+}
+
+.historia .capitulo {
+    margin: 30px 0;
+    padding: 20px;
+    border-top: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+}
+
+.historia .capitulo h2 {
+    font-size: 2em;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.historia .capitulo p {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    line-height: 1.8;
+}
+
+/* Estilos gerais */
+header h1 {
+    font-size: 3em;
+    margin: 20px 0;
+    color: #D0A933;
+    font-family: "Kaushan Script", serif;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-family: "Kaushan Script", serif;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.contos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    margin: 40px 0;
+    
+}
+
+.conto {
+    padding: 20px;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    background-color: #4B153B;
+    color: #FFFFFF;
+    font-family: 'Georgia', serif;
+    text-align: left;
+}
+
+.conto h2 {
+    font-size: 1.8em;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.conto p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.texto{
+    font-family: 'Georgia', serif;
+    color: #FFFFFF;
+    font-size:20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.t-contos{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+.divisor{
+    width: 700px;
+    height: 70px;
+}
+
+
+/* Estilo para o link de volta */
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer a:hover {
+    color: #4B153B;
+    background-color: #FFD700;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .menu-item {
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+
+    .introducao p {
+        font-size: 1.2em;
+    }
+
+    .foto img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .foto p {
+        font-size: 1em;
+    }
+
+    .filho {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .menu-item {
+        font-size: 0.9em;
+        padding: 7px 12px;
+    }
+
+    .introducao p {
+        font-size: 1em;
+    }
+
+    .foto img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .foto p {
+        font-size: 0.9em;
+    }
+
+    .filho {
+        font-size: 0.8em;
+        padding: 6px 10px;
+    }
+    .divisor {
+        width: 300px;
+        height: 30px;
+    }
+
+    .menu-item {
+        padding: 5px 2px;
+        margin: -0.3px;
+        font-size: 1em;
+    }
+}
